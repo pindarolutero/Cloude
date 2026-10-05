@@ -29,7 +29,7 @@ Em **Configurações da organização**:
 
 ## Passo 1.5: Instruções da organização
 1. Configurações da organização → **Organization instructions**.
-2. Cole o bloco de `01-implantacao/instrucoes-da-organizacao.md` (o trecho entre as linhas `---`).
+2. Cole o conteúdo do bloco de texto de `01-implantacao/instrucoes-da-organizacao.md` (até 3.000 caracteres).
 3. Salve. Pode levar até 1 hora para valer.
 4. Teste: *"Quantos clientes a Conciliadora tem em Curitiba?"* O Claude deve dizer que não tem esse dado, em vez de inventar.
 
