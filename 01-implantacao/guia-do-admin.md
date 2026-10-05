@@ -8,6 +8,7 @@ Tempo estimado: **1 a 2 horas** para a configuração inicial.
 
 | Camada | Onde fica | Quem configura | Para quê |
 |---|---|---|---|
+| **0. Instruções da organização** | Configurações da organização → Organization instructions | Admin (uma vez) | Regras que valem para **todas** as conversas e têm prioridade sobre as preferências pessoais: identidade resumida, tom, precisão, LGPD e formatação. |
 | **1. Skill organizacional** `conciliadora-marca` | Configurações da organização → Skills | Admin (uma vez) | Leva a voz e o conhecimento da Conciliadora para **qualquer conversa** de qualquer colaborador, automaticamente quando o assunto é comunicação/marca. |
 | **2. Projeto compartilhado** "Conciliadora \| Marca e Comunicação" | Projetos | Admin / Marketing | Espaço oficial com instruções + base de conhecimento completa. Ideal para criar materiais. |
 | **3. Projetos por área** (opcional) | Projetos | Líderes de área | Atendimento, Comercial, Marketing etc., com o mesmo conhecimento + materiais específicos (FAQs, scripts, propostas). |
@@ -25,6 +26,12 @@ Em **Configurações da organização**:
 - [ ] **Membros:** convide a equipe (por e-mail ou domínio `@conciliadora.com.br`). Defina quem é Admin e quem é Membro.
 - [ ] **Recursos (Capabilities):** habilite os que a empresa vai usar: Skills, criação de arquivos (documentos, planilhas, apresentações), pesquisa na web, memória e Artifacts.
 - [ ] **Conectores:** habilite apenas os aprovados (ex.: Google Drive, Gmail/Calendar, CRM). Revise o que cada conector pode acessar antes de liberar para todos.
+
+## Passo 1.5: Instruções da organização
+1. Configurações da organização → **Organization instructions**.
+2. Cole o bloco de `01-implantacao/instrucoes-da-organizacao.md` (o trecho entre as linhas `---`).
+3. Salve. Pode levar até 1 hora para valer.
+4. Teste: *"Quantos clientes a Conciliadora tem em Curitiba?"* O Claude deve dizer que não tem esse dado, em vez de inventar.
 
 ## Passo 2: Skill organizacional
 1. Configurações da organização → **Skills** → **Enviar skill** (Upload).

@@ -8,7 +8,7 @@ Origem: documento institucional "GPT – Institucional" (branding, público, tom
 
 | Pasta | Conteúdo | Quem usa |
 |---|---|---|
-| `01-implantacao/` | **Guia do admin** passo a passo + comunicado para a equipe | Admin (CEO) |
+| `01-implantacao/` | **Instruções da organização**, **guia do admin** passo a passo e comunicado para a equipe | Admin (CEO) |
 | `02-projeto-organizacional/` | Instruções do Projeto compartilhado + **base de conhecimento** (fonte da verdade) | Admin / Marketing |
 | `03-skill-organizacional/` | Skill `conciliadora-marca`, aplicada a toda a organização | Admin |
 | `04-estilo/` | Estilo personalizado "Conciliadora" | Cada colaborador |
@@ -28,8 +28,9 @@ Origem: documento institucional "GPT – Institucional" (branding, público, tom
 1. `07-conta-pessoal/prompt-de-extracao.md`: trazer tom e design da conta pessoal
 2. Completar `06-identidade-visual.md` e revisar números
 3. `./gerar-skill.sh`: gerar o ZIP da Skill
-4. Seguir `01-implantacao/guia-do-admin.md`
-5. Enviar `01-implantacao/comunicado-equipe.md`
+4. Colar `01-implantacao/instrucoes-da-organizacao.md` em Organization instructions
+5. Seguir `01-implantacao/guia-do-admin.md`
+6. Enviar `01-implantacao/comunicado-equipe.md`
 
 ## Manutenção
 A pasta `conhecimento/` é a única fonte da verdade. Ao mudar algo: edite, rode `./gerar-skill.sh`, reenvie a Skill e atualize os arquivos do Projeto.
